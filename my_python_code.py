@@ -29,7 +29,7 @@ for line in f:
 		alt.append(fields[4])
 
 # Read in SNP locations
-p = file(options.snps,"r")
+p = open(options.snps,"r")
 snplist = []
 for line in p:
 	snplist.append(line.rstrip())
