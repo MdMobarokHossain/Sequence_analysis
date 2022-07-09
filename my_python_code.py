@@ -1,4 +1,4 @@
-#!/bin/env python2.7
+#!/bin/env python3
 from optparse import OptionParser
 from Bio import SeqIO
 def main():
